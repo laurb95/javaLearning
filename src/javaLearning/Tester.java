@@ -6,6 +6,7 @@ public class Tester {
 	//variabile 
 	String nume;
 	int ratePerHour;
+	int age;
 	
 	//metode
 	
@@ -21,7 +22,14 @@ public class Tester {
 	public void setRatePerHour(int ratePerHour) {
 		this.ratePerHour = ratePerHour;
 	}
-		
+	
+	public int getAge() {
+		return age;
+	}
+	
+	public void setAge(int age) {
+		this.age = age;
+	}
 	
 	
 
